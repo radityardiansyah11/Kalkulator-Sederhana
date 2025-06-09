@@ -30,3 +30,28 @@ tombol.forEach((btn) => {
         }
     });
 });
+
+document.addEventListener('keydown', function (e) {
+    const key = e.key;
+
+    if (/[\d+\-*/.]/.test(key)) {
+        ekspresi += key;
+        layar.value = ekspresi;
+    } else if (key === 'Enter') {
+        try {
+            let hasil = eval(ekspresi.replace(/x/g, '*'));
+            layar.value = hasil;
+            ekspresi = hasil.toString();
+        } catch (err) {
+            layar.value = "Error";
+            ekspresi = "";
+        }
+        e.preventDefault();
+    } else if (key === 'Backspace') {
+        ekspresi = ekspresi.slice(0, -1);
+        layar.value = ekspresi;
+    } else if (key.toLowerCase() === 'c') {
+        ekspresi = "";
+        layar.value = "";
+    }
+});
