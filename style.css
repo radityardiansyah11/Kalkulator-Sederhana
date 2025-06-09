@@ -1,0 +1,100 @@
+/* h2 {
+  margin: 20px;
+} */
+
+body {
+    background-color: #254D70;
+}
+
+.kalkulator {
+    width: 335px;
+    margin: 100px auto;
+    padding: 50px 20px 50px 50px;
+    background-color: #204260;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+input {
+    width: 290px;
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffffff;
+}
+
+.bilangan {
+    padding-left: 15px;
+    font-size: xx-large;
+    border: none;
+    text-align: left;
+    font-weight: bold;
+}
+
+button {
+    width: 70px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #F2F2F2
+}
+
+button:hover {
+    background-color: #e2e2e2;
+}
+
+.hasil {
+    background-color: #1f5a8e;
+    color: white;
+}
+
+.hasil:hover {
+    background-color: #235888;
+}
+
+.hasil2 {
+    background-color: #1f5a8e;
+    color: white;
+    width: 150px;
+    margin-right: 5px;
+}
+
+.hasil2:hover {
+    background-color: #235888;
+}
+
+.hasil3 {
+    background-color: #FFA725;
+    color: white;
+    width: 150px;
+}
+
+.hasil3:hover {
+    background-color: #e99922;
+}
+
+.angka {
+    margin-top: 30px;
+}
+
+.angka .baris1,
+.baris2,
+.baris3,
+.baris4,
+.baris5 {
+    margin-top: 15px;
+}
+
+.simbolnya {
+    font-size: large;
+    margin-right: 5px;
+    font-weight: bold;
+    color: #4b4b4b;
+}
+
+.nomor {
+    font-size: large;
+    margin-right: 5px;
+    font-weight: bold;
+    color: #4b4b4b;
+}
